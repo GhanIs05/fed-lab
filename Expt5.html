@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const randomNumbers = [4, 11, 42, 14, 39];
+        const filteredArray = randomNumbers.filter(n => {
+         return n > 15;
+        });
+        console.log(filteredArray)
+        const array1 = [1, 2, 3, 4];
+        const initialValue = 0;
+        const sumWithInitial = array1.reduce((accumulator, currentValue) => accumulator + currentValue,initialValue);
+        console.log(sumWithInitial);
+        const finalParticipants = ['Taylor', 'Donald', 'Don', 'Natasha', 'Bobby'];
+        const announcements = finalParticipants.map(member => {
+         return member + ' joined the contest.';
+        })
+        console.log(announcements);
+        </script>
+</body>
+</html>
