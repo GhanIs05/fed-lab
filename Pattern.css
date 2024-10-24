@@ -1,31 +1,11 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(5, 50px);
-    grid-template-rows: repeat(5, 50px);
-    gap: 5px;
-}
-
-.box {
-    width: 50px;
-    height: 50px;
-}
-
-.orange {
+.normal {
     background-color: orange;
 }
 
-.light-orange {
+.light {
     background-color: #ffcc99;
 }
 
-.dark-orange {
+.dark {
     background-color: #cc6600;
 }
